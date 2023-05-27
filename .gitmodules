@@ -1,0 +1,12 @@
+[submodule "Article-microservice"]
+	path = Article-microservice
+	url = https://github.com/Aminbromdhane01/CAMPING_APP.git
+[submodule "Commande-microservice"]
+	path = Commande-microservice
+	url = https://github.com/Aminbromdhane01/CAMPING_APP.git
+[submodule "User-microservice"]
+	path = User-microservice
+	url = https://github.com/Aminbromdhane01/CAMPING_APP.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Aminbromdhane01/CAMPING_APP.git

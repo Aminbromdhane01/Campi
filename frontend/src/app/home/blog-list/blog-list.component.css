@@ -1,0 +1,11 @@
+.p_img{
+    height: 250px;
+    width: 300px;
+}
+@media only screen and (max-width: 985px) {
+    .p_img{
+        height: 311px;
+        width: 498px;
+    }
+  }
+  

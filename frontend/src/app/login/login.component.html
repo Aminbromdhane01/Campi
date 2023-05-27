@@ -1,0 +1,23 @@
+
+
+
+<div class="container mt-4" style="padding-top: 150px;">
+
+
+    <h2 class="text-center"> Login  </h2>
+
+    <div class="col-6 mx-auto">
+
+     
+
+
+        <input  type="text" class="form-control m-1" placeholder="email" [(ngModel)] = "user.email" >
+        <input  type="password" class="form-control m-1" placeholder="password" [(ngModel)]="user.password" >
+      
+        <button  (click)="login()"class="btn btn-dark form-control m-1">Login</button>
+        <button [routerLink]="'/register'" class="btn btn-dark form-control m-1">Signup</button>
+
+
+    </div>
+
+</div>

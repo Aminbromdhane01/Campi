@@ -1,0 +1,5 @@
+/node_modules
+/Article-microservice/node_modules
+/User-microservice/node_modules
+/Commande-microservice/node_modules
+/frontend/node_modules

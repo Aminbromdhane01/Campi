@@ -1,0 +1,30 @@
+version: '3'
+services:
+  microservice1:
+    build:
+      context: ./User-microservice
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    depends_on:
+      - mongodb
+  microservice2:
+    build:
+      context: ./Commande-microservice
+      dockerfile: Dockerfile
+    ports:
+      - 4000:4000
+    depends_on:
+      - mongodb
+  microservice3:
+    build:
+      context: ./Article-microservice
+      dockerfile: Dockerfile
+    ports:
+      - 5000:5000
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo:5.0.9
+    ports:
+      - 27017:27017
